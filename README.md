@@ -21,5 +21,5 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/math-symbols-extractor.git
+   https://github.com/ghauwan/image_ocr.git
    cd math-symbols-extractor
