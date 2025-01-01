@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+}
+
+h1, h2 {
+    margin: 0; /* Remove default margin */
+}
+
+#loadingMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007BFF; /* Change color as needed */
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-wrap; /* Preserve whitespace */
+    max-height: 300px; /* Set a maximum height for the output */
+    overflow: auto; /* Allow scrolling if the content exceeds the max height */
+}
+
+.text-panel-container {
+    position: relative;
+    margin-top: 20px; /* Space above the text panel */
+}
+
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+#textPanel {
+    margin-top: 40px; /* Add space for the button */
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto; /* Center the spinner */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Centered text */
+    width: 100%; /* Full width */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to the bottom */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Margin for paragraphs */
+}
+
+.footer-content a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
