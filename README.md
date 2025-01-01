@@ -1,4 +1,4 @@
-# Math Symbols Extractor
+# IMAGE text Extractor
 
 ## Overview
 Math Symbols Extractor is a web application that allows users to upload an image containing mathematical symbols and extract the text from it using Optical Character Recognition (OCR). While it is intended for math images it can be used to extract any other sort of text. The application supports multiple languages and provides an interface for users to edit and copy the extracted text.
