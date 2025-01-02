@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image to Text Converter</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css" />
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Text Ripper</h1> <!-- This could be an image too if you have a logo image -->
+            </div>
+            <div class="navbar-buttons">
+                <button class="buy-button" onclick="window.open('https://www.buymeacoffee.com/yourusername', '_blank')">Buy Me a Coffee</button>
+            </div>
+        </div>
+    </header>
+        
     <div class="container">
-        <h1>Upload image to start</h1>
         <input type="file" id="imageInput" accept="image/*">
         
-        <!-- Language selection dropdown -->
         <label for="languageSelect">Select Document Language:</label>
         <select id="languageSelect">
             <option value="eng">English</option>
@@ -21,7 +31,6 @@
             <option value="rus">Russian</option>
             <option value="chi_sim">Chinese - Simplified</option>
             <option value="ara">Arabic</option>
-            <!-- Add more languages as needed -->
         </select>
         
         <button id="extractButton">Extract Text</button>
@@ -37,12 +46,13 @@
 
     <footer>
         <div class="footer-content">
-            <p>&copy; <span id="currentYear"></span> GHauwanga. All rights reserved.</p>
-            <p><a href="https://github.com/ghauwan">Contact Us</a></p>
+            <p>&copy; <span id="currentYear"></span> Your company. All rights reserved.</p>
+            <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="contact.html">Contact Us</a></p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
