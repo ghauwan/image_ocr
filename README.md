@@ -7,7 +7,8 @@ Image OCR is a web application that allows users to upload an image containing m
 ## Features
 - Upload an image file.
 - Select the document language for OCR.
-- Extract text from the uploaded image.
+- Crop the image section
+- Extract text from the cropped image.
 - Edit the extracted text in a text area.
 - Copy the extracted text to the clipboard.
 
