@@ -16,6 +16,7 @@ Image OCR is a web application that allows users to upload an image containing m
 - CSS
 - JavaScript
 - Tesseract.js (OCR library)
+- Cropper.js (IMAGE croper library)
 
 ## Getting Started
 To run the application locally, follow these steps:
