@@ -1,5 +1,6 @@
 
 IMAGE OCR
+<img src="images/1.png">
 Overview
 
 Try it out: https://ghauwan.github.io/image_ocr/
